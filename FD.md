@@ -1,6 +1,6 @@
 # Everything taken from domain description
 
-Domain ( R ) = {dName, dAbbreviation, pName, pAbbreviation, bName, IDnr, sName, login, grade, credit, code, coName, capacity, position, clName}
+Domain ( R ) = {dName, dAbbreviation, pName, pAbbreviation, bName, IDnr, sName, login, grade, credit, code, coName (course name), capacity, position, clName (classification name)}
 
 ## FD's determined from domain description
 dName $\rightarrow$ dAbbreviation
@@ -25,5 +25,5 @@ code $\rightarrow$ coName, credit, capacity
 - How to treat the mandatory courses? Since mandatory is not an attribute but a relation in our ER I have not added it as an attribute here. But for example: Say we have a course code and a program name. Then we could say whether the course is mandatory for that program or not. So we could model this as the FD: code, pName $\rightarrow$ mandatoryProgram if we would include mandatoryProgram as an attribute.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0NDYwMDg1LDEwNjg0NDA1XX0=
+eyJoaXN0b3J5IjpbLTEwNTI5ODg3OCwxMDY4NDQwNV19
 -->
