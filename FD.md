@@ -21,9 +21,10 @@ code $\rightarrow$ coName, credit, capacity
 **Follows from uniqueness of course code.**
 
 
+
 ## Questions:
 - How to treat the mandatory courses? Since mandatory is not an attribute but a relation in our ER I have not added it as an attribute here. But for example: Say we have a course code and a program name. Then we could say whether the course is mandatory for that program or not. So we could model this as the FD: code, pName $\rightarrow$ mandatoryProgram if we would include mandatoryProgram as an attribute.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTI5ODg3OCwxMDY4NDQwNV19
+eyJoaXN0b3J5IjpbLTIwMDA0NjQxNzIsMTA2ODQ0MDVdfQ==
 -->
