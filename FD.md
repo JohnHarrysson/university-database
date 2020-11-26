@@ -29,9 +29,10 @@ IDnr, code $\rightarrow$ grade
 ## Questions:
 - How to treat the mandatory courses? Since mandatory is not an attribute but a relation in our ER I have not added it as an attribute here. But for example: Say we have a course code and a program name. Then we could say whether the course is mandatory for that program or not. So we could model this as the FD: **code, pName $\rightarrow$ mandatoryProgram** if we would include mandatoryProgram as an attribute.
 - How do we handle registered and taken? If we add as attributes, these could create new FD's or make existing ones more sensible. Example: The FD **IDnr, code $\rightarrow$ grade** would work better as not having taken a course should not give a grade U.
-- **clName** is still without any FD's. Something I've missed here?
+- **clName** is still without any FD's. Something I've missed here? This would have much more synergy if we would consider requirements for graduation, but can't see any other use for it.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Njc4ODk4Myw4NDM0MTY2NTcsLTM1MT
-Y1ODU3MywtMjAwMDQ2NDE3MiwxMDY4NDQwNV19
+eyJoaXN0b3J5IjpbLTEwNzAzMTk3NjEsMTE4Njc4ODk4Myw4ND
+M0MTY2NTcsLTM1MTY1ODU3MywtMjAwMDQ2NDE3MiwxMDY4NDQw
+NV19
 -->
