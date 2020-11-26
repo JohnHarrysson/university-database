@@ -27,10 +27,10 @@ IDnr, code $\rightarrow$ grade
 **Follows from knowing the student and course, we can see the grade in that course (if we consider not having done the course $\Rightarrow$ grade U).**
 
 ## Questions:
-- How to treat the mandatory courses? Since mandatory is not an attribute but a relation in our ER I have not added it as an attribute here. But for example: Say we have a course code and a program name. Then we could say whether the course is mandatory for that program or not. So we could model this as the FD: code, pName $\rightarrow$ mandatoryProgram if we would include mandatoryProgram as an attribute.
-- How do we handle registered and taken? If we add as attributes, these could create new FD's or make existing ones more sensible. Example: 
+- How to treat the mandatory courses? Since mandatory is not an attribute but a relation in our ER I have not added it as an attribute here. But for example: Say we have a course code and a program name. Then we could say whether the course is mandatory for that program or not. So we could model this as the FD: **code, pName $\rightarrow$ mandatoryProgram** if we would include mandatoryProgram as an attribute.
+- How do we handle registered and taken? If we add as attributes, these could create new FD's or make existing ones more sensible. Example: The FD **IDnr, code $\rightarrow$ grade** would work better as not having taken a course should not give a grade U.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjAzMTkwNSwtMzUxNjU4NTczLC0yMD
-AwNDY0MTcyLDEwNjg0NDA1XX0=
+eyJoaXN0b3J5IjpbODQzNDE2NjU3LC0zNTE2NTg1NzMsLTIwMD
+A0NjQxNzIsMTA2ODQ0MDVdfQ==
 -->
