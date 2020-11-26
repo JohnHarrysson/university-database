@@ -17,12 +17,12 @@ login $\rightarrow$ IDnr, sName(by reference)
 IDnr $\rightarrow$ pName, pAbbreviation(by reference), *bName*
 **Follows from student always part of program and must choose a single branch within that program.**
 
-coCode
+code $\rightarrow$ coName, credit
 
 
 ## Questions:
 - I
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1NDQ0OTA4LDEwNjg0NDA1XX0=
+eyJoaXN0b3J5IjpbNTIzMzYyNTM1LDEwNjg0NDA1XX0=
 -->
