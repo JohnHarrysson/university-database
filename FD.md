@@ -24,8 +24,9 @@ code $\rightarrow$ coName, credit, capacity, dName, dAbbreviation
 
 ## Questions:
 - How to treat the mandatory courses? Since mandatory is not an attribute but a relation in our ER I have not added it as an attribute here. But for example: Say we have a course code and a program name. Then we could say whether the course is mandatory for that program or not. So we could model this as the FD: code, pName $\rightarrow$ mandatoryProgram if we would include mandatoryProgram as an attribute.
+- How do we define *capacity*? Option 1: static definition,
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTY1ODU3MywtMjAwMDQ2NDE3MiwxMD
-Y4NDQwNV19
+eyJoaXN0b3J5IjpbMjA0OTc4Mzg1NiwtMzUxNjU4NTczLC0yMD
+AwNDY0MTcyLDEwNjg0NDA1XX0=
 -->
