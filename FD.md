@@ -20,6 +20,8 @@ IDnr $\rightarrow$ pName, pAbbreviation(by reference), *bName*
 code $\rightarrow$ coName, credit, capacity, dName, dAbbreviation
 **Follows from uniqueness of course code. For dName/dAbbreviation it follows from a course being given by one and only one department.**
 
+IDnr, code $\rightarrow$ position
+**Follows from each course having a waitingli
 
 
 ## Questions:
@@ -27,6 +29,6 @@ code $\rightarrow$ coName, credit, capacity, dName, dAbbreviation
 - How do we handle registered and taken? If we add as attributes, these could create new FD's.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzAxOTA1MywtMzUxNjU4NTczLC0yMD
+eyJoaXN0b3J5IjpbMjA0Mzk2OTQ0OSwtMzUxNjU4NTczLC0yMD
 AwNDY0MTcyLDEwNjg0NDA1XX0=
 -->
