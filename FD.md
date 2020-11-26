@@ -21,7 +21,7 @@ code $\rightarrow$ coName, credit, capacity, dName, dAbbreviation
 **Follows from uniqueness of course code. For dName/dAbbreviation it follows from a course being given by one and only one department.**
 
 IDnr, code $\rightarrow$ position
-**Follows from each course having a waitingli
+**Follows from each course having a waiting list (or none) and knowing the student and course we can see uniquely which position that student have in the waiting list.
 
 
 ## Questions:
@@ -29,6 +29,6 @@ IDnr, code $\rightarrow$ position
 - How do we handle registered and taken? If we add as attributes, these could create new FD's.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Mzk2OTQ0OSwtMzUxNjU4NTczLC0yMD
+eyJoaXN0b3J5IjpbLTU3NDI5OTk1OCwtMzUxNjU4NTczLC0yMD
 AwNDY0MTcyLDEwNjg0NDA1XX0=
 -->
