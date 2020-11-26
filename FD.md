@@ -22,8 +22,8 @@ code $\rightarrow$ coName, credit, capacity
 
 
 ## Questions:
-- I
+- How to treat the mandatory courses? Since mandatory is not an attribute but a relation in our schema I have not added it as an attribute here. But for example: Say we have 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTA5OTA1NTAsMTA2ODQ0MDVdfQ==
+eyJoaXN0b3J5IjpbMjA0ODQwNzc4MywxMDY4NDQwNV19
 -->
